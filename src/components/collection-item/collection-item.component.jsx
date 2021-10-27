@@ -1,7 +1,6 @@
 import React from 'react';
 import './collection-itme.syle.scss';
 
-
 const CollectionItem = ({id, name, price, imageUrl}) => (
     <div className='collection-item'>
         <div className='image' style={{ backgroundImage: `url(${imageUrl})`      }} />
@@ -9,7 +8,5 @@ const CollectionItem = ({id, name, price, imageUrl}) => (
         <span className='price'>{price}</span>
 
     </div>
-
 )
-
 export default CollectionItem;
