@@ -1,9 +1,9 @@
 import React from "react";// whole page not understood
 import './form-input.styles.scss';
 
-const FormInput = ({handleChaneg, label, ...otherProps}) =>(
+const FormInput = ({handleChange, label, ...otherProps}) =>(
     <div className="group">
-        <input className='form-input' onChange={handleChaneg} {...otherProps}  />
+        <input className='form-input' onChange={handleChange} {...otherProps}  />
         {
             label?
             (
